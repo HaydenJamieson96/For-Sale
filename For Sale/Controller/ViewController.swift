@@ -18,12 +18,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         collectionView.dataSource = self
         collectionView.delegate = self
+        ProductsService.shared.delegate = self
+        ProductsService.shared.observeProducts()
     }
 
     @IBAction func addTapped(_ sender: Any) {
         AlertService.addProductAlert(in: self) { (product) in
-            self.products.append(product)
-            self.collectionView.reloadData()
+            ProductsService.shared.post(product: product)
         }
     }
     
@@ -49,6 +50,16 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         cell.configureCell(withProduct: products[indexPath.item])
         return cell
     }
+    
+}
+
+extension ViewController: ProductsServiceDelegate {
+    
+    func didChange(products: [Product]) {
+        self.products = products
+        collectionView.reloadData()
+    }
+    
     
 }
 
