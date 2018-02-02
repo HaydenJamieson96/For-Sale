@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         print("Did register for Notifications")
-        print(Messaging.messaging().fcmToken)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

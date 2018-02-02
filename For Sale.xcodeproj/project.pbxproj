@@ -20,6 +20,7 @@
 		10E56DE52024A4B40054E400 /* FIRDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E56DE42024A4B40054E400 /* FIRDatabaseService.swift */; };
 		10E56DE72024A8220054E400 /* ProductsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E56DE62024A8220054E400 /* ProductsSnapshot.swift */; };
 		10E56DE92024AA120054E400 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E56DE82024AA120054E400 /* ProductsService.swift */; };
+		10E72C342024B34D0072DA40 /* FIRMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E72C332024B34D0072DA40 /* FIRMessagingService.swift */; };
 		CA304BA54C105B9BB5B24AE7 /* Pods_For_Sale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07E8AC48BBF295BAA006AA2 /* Pods_For_Sale.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		10E56DE42024A4B40054E400 /* FIRDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseService.swift; sourceTree = "<group>"; };
 		10E56DE62024A8220054E400 /* ProductsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSnapshot.swift; sourceTree = "<group>"; };
 		10E56DE82024AA120054E400 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		10E72C332024B34D0072DA40 /* FIRMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRMessagingService.swift; sourceTree = "<group>"; };
 		D07E8AC48BBF295BAA006AA2 /* Pods_For_Sale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_For_Sale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA85D00F7BC49B1DB15A3AF /* Pods-For Sale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-For Sale.release.xcconfig"; path = "Pods/Target Support Files/Pods-For Sale/Pods-For Sale.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				10A334ED202362010087FEF2 /* UNService.swift */,
 				10E56DE42024A4B40054E400 /* FIRDatabaseService.swift */,
 				10E56DE82024AA120054E400 /* ProductsService.swift */,
+				10E72C332024B34D0072DA40 /* FIRMessagingService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				10E56DE72024A8220054E400 /* ProductsSnapshot.swift in Sources */,
 				10A334E820235CB90087FEF2 /* Product.swift in Sources */,
 				10A334EC20235E980087FEF2 /* AlertService.swift in Sources */,
+				10E72C342024B34D0072DA40 /* FIRMessagingService.swift in Sources */,
 				10E56DE92024AA120054E400 /* ProductsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
